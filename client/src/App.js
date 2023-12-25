@@ -12,17 +12,23 @@ import AdminPage from "./pages/AdminPage";
 import { Helmet } from "react-helmet";
 
 import AdvanceSerchFancyNumber from "./pages/AdvanceSerchFancyNumber";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Services from "./pages/Services";
 
 function App() {
   const [selectedSearchData, setSelectedSearchData] = useState("");
   const [selectedSearchOptions, setSearchOptions] = useState("");
 
+  const user = JSON.parse(localStorage.getItem("currentUser"));
+
   const getNavbarSearchData = (searchData, selectedOptions) => {
     setSelectedSearchData(searchData);
     setSearchOptions(selectedOptions);
   };
+
+  useEffect(() => {
+    console.log("user", user);
+  }, []);
 
   return (
     <div>
@@ -58,7 +64,10 @@ Unlock a new level of prestige and individuality with our exclusive collection o
         <Route path="/details/:id" element={<PhoneNumberDetails />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
-        <Route path="/admin" element={<AdminPage />} />
+        {user && user.isAdmin && (
+          <Route path="/admin" element={<AdminPage />} />
+        )}
+
         <Route path="/advanceSearch" element={<AdvanceSerchFancyNumber />} />
         <Route path="/about" element={<Services />} />
       </Routes>
