@@ -26,9 +26,7 @@ function App() {
     setSearchOptions(selectedOptions);
   };
 
-  useEffect(() => {
-    console.log("user", user);
-  }, []);
+  useEffect(() => {}, [user]);
 
   return (
     <div>
