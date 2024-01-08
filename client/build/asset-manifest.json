@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.153c10ca.css",
+    "main.js": "/static/js/main.5380711e.js",
+    "static/js/787.4eac6d66.chunk.js": "/static/js/787.4eac6d66.chunk.js",
+    "static/media/Prashanth.JPG": "/static/media/Prashanth.dfecd08190c5ab6819a9.JPG",
+    "static/media/vinayaka.jpeg": "/static/media/vinayaka.fc959d10527ff73ecaa6.jpeg",
+    "static/media/bg-chat-tile-dark.png": "/static/media/bg-chat-tile-dark.39f53e74f66d348d9f7c.png",
+    "static/media/bg-chat-tile-light.png": "/static/media/bg-chat-tile-light.7fff1c4f8a5baa210f0e.png",
+    "static/media/2.jpg": "/static/media/2.d858fbaf432dc78ca821.jpg",
+    "static/media/1.jpg": "/static/media/1.ed841c3202d75eb9d481.jpg",
+    "static/media/3.jpg": "/static/media/3.df7f1945d033e5a9cf2e.jpg",
+    "static/media/uifaces-avatar.jpg": "/static/media/uifaces-avatar.3e4a68ba57b28255e923.jpg",
+    "static/media/whatsapp-notification.mp3": "/static/media/whatsapp-notification.4abed9247576d778c577.mp3",
+    "static/media/logo.png": "/static/media/logo.e05c1f2f8a7e4b9933b4.png",
+    "index.html": "/index.html",
+    "main.153c10ca.css.map": "/static/css/main.153c10ca.css.map",
+    "main.5380711e.js.map": "/static/js/main.5380711e.js.map",
+    "787.4eac6d66.chunk.js.map": "/static/js/787.4eac6d66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.153c10ca.css",
+    "static/js/main.5380711e.js"
+  ]
+}
